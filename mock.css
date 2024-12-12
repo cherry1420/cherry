@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }  
+  /*header {
+    position: fixed;
+    top: 0;        /* Position the header at the top of the page */
+    /*left: 0;       /* Align it to the left */
+    /*width: 100%;   /* Make the header span across the full width of the page */
+    /*background-color: goldenrod; /* Set a background color */
+    /*color: white;  /* Set the text color */
+    /*padding: 10px 0; /* Add some padding */
+    /*z-index: 1000;  /* Ensure the header stays above other elements */
+  
+    header {
+      background: goldenrod;
+      color: #fff;
+      padding: 10px 0;
+    }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*main {
+    padding: 20px;
+    flex-grow: 1; /* Ensures the main content area grows to take up the available space }*/
+
+    main {
+        padding-top: 60px;  /* Adjust to account for the fixed header */
+        padding-bottom: 40px; /* Adjust to account for the fixed footer */
+        min-height: 100%;  /* Ensures content area fills the remaining space */
+        overflow-y: auto;  /* Allows scrolling inside the main content area */
+        height: 100vh; 
+      }
+  section {
+    margin-bottom: 20px;
+  }
+  
+ /* footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: goldenrod;
+    color: #fff;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    z-index: 1000;
+  }*/
+
+  /*footer {
+    background: goldenrod;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }*/
+
+  footer {
+    display: flex; /* Enables flexbox for side-by-side alignment */
+    justify-content: space-between; /* Pushes content to opposite sides */
+    align-items: center; /* Aligns items vertically in the center */
+    background-color: goldenrod; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 10px 20px; /* Adds padding around the footer */
+    font-size: 12px; 
+  }
+  
+  footer a {
+    color: #fff; /* Links color */
+    text-decoration: none; /* Removes underline from links */
+    margin: 0 10px; /* Adds spacing between links */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+    width: 35%;     /* Increase width of the container */
+    max-width: 1200px; /* Set a maximum width */
+  }
+  .headline {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.text{
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
